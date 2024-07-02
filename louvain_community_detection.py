@@ -30,7 +30,7 @@ import pandas as pd
 import numpy as np
 import igraph as ig
 from scipy.spatial.distance import pdist, squareform
-from data_tools import read_chip_database
+from utils.io import read_chip_database
 
 import argparse
 
